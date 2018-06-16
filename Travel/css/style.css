@@ -1,0 +1,151 @@
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+}
+.block{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo{
+	color: #1298dd;
+	font-weight: bold;
+	font-size: x-large;
+}
+.logo span{
+	color: #8d8d8d;
+	font-weight: normal;
+}
+.menu a{margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+	color: #7b7b7b;
+	padding: 10px;
+	border: 2px solid transparent;
+}
+.menu a:hover{
+	border-radius: 5px;
+	background-image: linear-gradient(to bottom, #34aef6, #2087e8);
+	width: 100px;
+	height: 30px;
+	border: 2px solid #1784d1;
+	color: #ffffff;
+}
+.background{
+	padding-top: 170px;
+	padding-bottom: 170px;
+	background-image: url(../img/Без-имени-1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.button{
+	margin-left: 380px;
+	width: 270px;
+	height: 60px;
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom, #6cd156, #3ab127);
+}
+.button a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: x-large;
+	color: #ffffff;
+}
+.ask{
+	padding-left: 260px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	font-size: xx-large;
+	color: #ffffff;
+	width: 500px;
+	text-align: center;
+}
+.ask span{
+	font-weight: normal;
+}
+.overlay{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.4);
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.sector{
+	padding-left: 25px;
+	padding-right: 25px;
+	position: absolute;
+	/*1 спосіб
+	top: calc(85% - 120px);
+	left: calc(50% - 240px);*/
+	/*2 спосіб*/
+	/*top: 85%;
+	left: 50%;
+	transform: translate(-50%, -50%);*/
+	z-index: 2;
+	background-color: #ffffff;
+	width: 480px;
+	height: 240px;
+	border-radius: 10px;
+	border-bottom: 10px solid #51c03d;
+}
+.nail p{
+	margin-top: 0px;
+	color: #9a9a9a;
+}
+.title{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: x-large;
+	color: #868686;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.main{
+	padding-top: 220px;
+	background-color: #ececec;
+}
+.cap{
+	text-align: center;
+	color: #9a9a9a;
+	font-size: x-large;
+}
+.string{
+	padding-top: 50px;
+	padding-bottom: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.box p{
+	text-align: center;
+	color: #7e7c7c;
+}
+.circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 135px;
+	height: 135px;
+	border-radius: 50%;
+	background-color: #ffffff;
+}
+.footer{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #414141;
+}
+.end{
+	text-align: center;
+	color: #9a9a9a;
+}

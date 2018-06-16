@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Beautifel Travel</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<div class="block container">
+			<div class="logo">
+				Indo<span>Tourism</span>
+			</div>
+			<div class="menu">
+				<a href="">Home</a>
+				<a href="">About us</a>
+				<a href="">Projects</a>
+				<a href="">Contact us</a>
+			</div>
+		</div>
+		<div class="background">
+			<div class="content container">
+				<div class="ask">
+					I Like To Ask The Same Question <span>Many Many Times</span>
+				</div>
+				<button class="button">
+					<a href="">Ok ask me</a>
+				</button>
+			</div>
+		</div>
+	</header>
+	<div class="overlay">
+	<div class="sector">
+		<div class="egg">
+			<div class="title">
+				Places You Must Visit In Your Lifetime
+			</div>
+			<div class="row">
+				<div class="nail">
+					<div class="photo">
+						<img src="img/1.png">
+					</div>
+					<p>Azheekal</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/2.png">
+					</div>
+					<p>Ooty</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/3.png">
+					</div>
+					<p>Munnar</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/4.png">
+					</div>
+					<p>Humpi</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/5.png">
+					</div>
+					<p>Kovalam</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="nail">
+					<div class="photo">
+						<img src="img/6.png">
+					</div>
+					<p>Kuttanad</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/7.png">
+					</div>
+					<p>Thenmala</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/8.png">
+					</div>
+					<p>Beach</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/9.png">
+					</div>
+					<p>Munnar</p>
+				</div>
+				<div class="nail">
+					<div class="photo">
+						<img src="img/10.png">
+					</div>
+					<p>Punaloor</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<main class="main">
+		<div class="cap">
+			<p>We’ve since expanded our life list to 43 sites around the world</p>
+			<p>43 Places to See Before You Die</p>
+		</div>
+		<div class="string container">
+			<div class="box">
+				<div class="circle">
+					<img src="img/circle1.png">
+				</div>
+				<p>Sites the world</p>
+			</div>
+			<div class="box">
+				<div class="circle">
+					<img src="img/circle2.png">
+				</div>
+				<p>Shopping</p>
+			</div>
+			<div class="box">
+				<div class="circle">
+					<img src="img/circle3.png">
+				</div>
+				<p>Photography</p>
+			</div>
+			<div class="box">
+				<div class="circle">
+					<img src="img/circle4.png">
+				</div>
+				<p>Find the best</p>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="end container">
+			Designed by cssauthor.com
+		</div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(function(){
+			$('body').click(function(){
+				$('.overlay').css({"display":"flex"});
+			});
+		
+			$('.sector').click(function(){
+				$('.overlay').css({"display":"none"});
+				return false;
+			});
+			
+		});
+	</script>
+</body>
+</html>
